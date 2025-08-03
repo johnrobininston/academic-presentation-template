@@ -1,16 +1,16 @@
 ---
-title: Quarto Clean Theme
+title: Academic Presentation Template
 subtitle: A Minimalistic Theme for Quarto + Typst + Touying
 date: today
 date-format: long
 image: static/img/thumbnail.svg
 author:
-  - name: Kazuharu Yanagimoto
-    orcid: 0009-0007-1967-8304
-    email: kazuharu.yanagimoto@cemfi.edu.es
-    affiliations: CEMFI
+  - name: John Robin Inston
+    orcid: 0009-0001-7285-6823
+    email: johninston@ucsb.edu
+    affiliations: UC Santa Barbara
 format:
-  clean-typst:
+  academic-presentation-template-typst::
     bibliographystyle: "chicago-author-date"
     include-in-header: "custom.typ"
     commands: [small-cite]
@@ -30,8 +30,10 @@ brand:
         source: google
       - family: Fira Code
         source: google
+      - family: Libertinus Serif
+        source: google
     base:
-      family: Roboto
+      family: Montserrat
       weight: light
     headings:
       family: Josefin Sans
