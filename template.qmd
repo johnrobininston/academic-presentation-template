@@ -10,7 +10,7 @@ author:
     email: johninston@ucsb.edu
     affiliations: UC Santa Barbara
 format:
-  academic-presentation-template-typst::
+  academic-presentation-template-typst:
     bibliographystyle: "chicago-author-date"
     include-in-header: "custom.typ"
     commands: [small-cite]
